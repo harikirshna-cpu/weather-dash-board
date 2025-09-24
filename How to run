@@ -1,0 +1,20 @@
+Install Required Libraries
+If you already have a requirements.txt file:
+pip install -r requirements.txt
+Otherwise, install manually:
+pip install requests matplotlib
+(tkinter is already included with Python on Windows, macOS, and most Linux distributions.)
+2. Get an API Key
+Go to OpenWeather
+Sign up for a free account.
+Copy your API key (it’s a long string).
+3. Add API Key to Code
+Inside your Python script (main.py), you should have a place to store or prompt for the API key.
+For example:
+API_KEY = "your_api_key_here"
+Replace "your_api_key_here" with your actual OpenWeather API key.
+4. Run the Script
+Navigate to your project folder in terminal or command prompt and run:
+python main.py
+(or python3 main.py on Linux/Mac)
+This should open your Weather Dashboard GUI window.
